@@ -1,0 +1,107 @@
+.homepage{
+    margin-top: 300px
+}
+.homepage h1{
+    font-size: 300%;
+    color: white;
+}
+h2{
+    font-size: 200%;
+    color: rgba(255, 255, 255, 0.611)
+}
+div{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.portrait img{
+    margin-top: -450px;
+    margin-right: -100px;
+    float: right;
+    height: 500px;
+    width: auto;
+}
+.homepage button{
+    font-size: large;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 20px;
+    height: 40px;
+    width: 120px;
+    text-shadow: 2px 2px 5px rgb(137, 137, 137);
+    box-shadow: 1px 1px 8px rgb(179, 179, 179);
+    border-radius: 15px;
+    transition: width 0.5s, height 0.5s,font-size 0.5s;
+}
+.homepage button:hover {
+    background-color: rgb(146, 146, 146);
+    height: 50px;
+    width: 130px;
+    cursor: pointer;
+    font-size: 135%;
+    
+}
+.white-line {
+    max-width: 100%;
+    margin-top: 90px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.445);
+  }
+
+.underdiv h1{
+    margin-top: 50px ;
+    margin-bottom: 50px;
+    text-align: center;
+    color: blueviolet;
+}
+.underdiv h2{
+    font-size: x-large;
+    max-width: 900px;
+    line-height: 1.4em;
+}
+
+.social ul{
+    justify-content: center;
+    display: flex;
+    list-style: none;
+}
+.social h3{
+    margin-top: 100px;
+    text-align: center;
+    color: aliceblue;
+
+}
+.social h3 span{
+    color: blueviolet;
+}
+.social li{
+    color: blueviolet;
+    font-size: 40px;
+    
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+.social li:hover{
+    color: rgb(96, 30, 157);
+    cursor: pointer;
+}
+.linkedin{
+    color: rgb(30, 59, 189);
+}
+.linkedin:hover{
+    color: rgb(17, 35, 112);
+}
+.git{
+    color: white;
+}
+.insta{
+    color: rgb(255, 0, 183);
+}
+.twit{
+    color: rgb(0, 149, 255);
+}
+.git:hover{
+    color: rgb(167, 167, 167);
+}
+.insta:hover{
+    color: rgb(168, 0, 121);
+}
+.twit:hover{
+    color: rgb(3, 96, 163);
+}

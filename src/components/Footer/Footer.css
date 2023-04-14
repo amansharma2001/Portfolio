@@ -1,0 +1,16 @@
+footer {
+    color: white;
+    left:0;
+    bottom:0;
+    right:0;
+    padding-bottom: 20px;
+    background-color: rgba(19, 18, 18, 0.782);
+    margin-top: auto;
+}
+footer ul{
+    list-style: none;
+}
+footer li{
+    display: inline-block;
+    margin-right: 33%;
+}

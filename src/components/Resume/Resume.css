@@ -1,0 +1,21 @@
+.resume{
+    margin-left: 600px;
+    font-size: xx-large;
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    transition: box-shadow 0.5s, background-color 0.5s;
+}   
+.resume:hover{
+    background-color: rgb(96, 30, 157);
+    cursor: pointer;
+    box-shadow: 1px 1px 10px white;
+}
+.resume-img img{
+    margin-left: 130px;
+    margin-top: 40px;
+    width: 1200px;
+    margin-bottom: 300px;
+}
